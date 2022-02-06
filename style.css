@@ -1,0 +1,84 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    background-image: url(./images/BG.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    height: 420px;
+    width: 320px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Up_contain {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.dot {
+    width: 30px;
+    height: 30px;
+}
+.left>img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.left{
+display: flex;
+justify-content: space-around;
+}
+p{
+    width: 100px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.post>img{
+width: 300px;
+height: 300px;
+}
+.love{
+    height: 30px;
+    width: 30px;
+}
+.msg{
+    height: 40px;
+    width: 40px;
+}
+.kite{
+    height: 30px;
+    width: 30px;
+}
+.submit{
+    height: 30px;
+    width: 30px;
+}
+.left_icons>img{
+    width: 20px;
+    height: 20px;
+}
+.right_icons>img{
+    height: 20px;
+    width: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.comment{
+    width: 90%;
+}
+.follow{
+    width: 90%;
+}
